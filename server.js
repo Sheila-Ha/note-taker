@@ -39,8 +39,15 @@ app.post('/api/notes', (req, res) => {
 
   fs.readFile('./db/db.json', 'utf8', (err,data) => {
     if(err) throw err;
+      // Output the data for testing
+      console.log(data);
+      // Convert the data from a string to an object
+      let notes = JSON.parse(data);
+      // Push the new data onto the notes object
+      console.log('Push the data onto the notes');
       notes.push(newNote);
-      
+      // Output the notes object for testing
+      console.log(notes);
     fs.writeFile('./db/db.json', JSON.stringify(notes, null, 2), (err) => {
       if (err) throw err;
       res.json(newNote);
