@@ -50,7 +50,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
     
   
   ### Wireframe
-  [My Wireframe](img/note_taker_wireframe.png)
+  [My Wireframe](public/assets/img/note_taker_wireframe.png)
       
 ## Usage 
   - 
