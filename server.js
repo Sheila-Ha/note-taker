@@ -16,8 +16,8 @@ app.use(express.json());
 // Static middleware pointing to the public folder
 app.use(express.static("public"));
 
-app.get('/notes',(req, res) => {
-  res.sendFile(path.join(__dirname, '/public/notes.html'));
+app.get("/notes", (req, res) => {
+  res.sendFile(path.join(__dirname, "/public/notes.html"));
 });
 
 app.get("/api/notes", (req, res) => {
@@ -61,10 +61,21 @@ app.post("/api/notes", (req, res) => {
 // call deleteNote
 app.delete("/api/notes/*", (req, res) => {
   //console.log('api/notes');
+  // console.log(req.url);
+  let noteId = req.url.replace("/api/notes/", "");
+  console.log(noteId);
   fs.readFile("./db/db.json", "utf8", (err, data) => {
     if (err) throw err;
     let notes = JSON.parse(data);
-    console.log(notes);
+    // console.log(notes);
+    //return/get filtered array
+    notes = notes.filter(function (note) {
+      return note.id !== noteId;
+    });
+    fs.writeFile("./db/db.json", JSON.stringify(notes, null, 2), (err) => {
+      if (err) throw err;
+      res.json(notes);
+    });
   });
 });
 
