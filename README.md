@@ -2,7 +2,7 @@
 by Sheila Hanson ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description <!-- omit from toc -->
-- 
+  - This application is a Note Taker that can be used to write, save and delete notes. The Note Taker app uses Express.js back end and saves and retrives note data from the JSON file. The deployment is run through Heroku for this application.
 
 ## Table of Contents <!-- omit from toc -->
   
@@ -20,8 +20,11 @@ by Sheila Hanson ![Github license](https://img.shields.io/badge/license-MIT-blue
 - [Badges](#badges)
     
 
-## Installation
-  - 
+## Installation  
+  - How to deployment using Heroku and Git. 
+    - [Heroku](https://devcenter.heroku.com/articles/git#prerequisites-install-git-and-the-heroku-cli) 
+    - My terminal - installing Heroku 
+      ![Alt text](public/assets/img/heroku_install_to_git.png)
     
   
   ### User Story
@@ -53,14 +56,18 @@ THEN I am presented with empty fields to enter a new note title and the note’s
   [My Wireframe](public/assets/img/note_taker_wireframe.png)
       
 ## Usage 
-  - 
-
-   ![Screenshot]()
-
-  DEMO: ()
+  - [Note-Taker app deployed through Heroku](https://note-taker-demo-38df2f8b4c58.herokuapp.com/notes)  
+    - Title and list - click save (top right corner)
+ ![Title & List](public/assets/img/Title_List.png)  
+    - View after save 
+    - Moves from making active notes to a saved notes to view later.
+  ![Alt text](public/assets/img/save_listpng.png)  
+    - Viewing the saved list
+    - New Note can be made by clicking top right corner button   
+      ![Alt text](<public/assets/img/view _saved_list.png>)
 
 ## Features
-1.   
+1. Option to delete notes
 2. Including a wireframe
 
 ## Challenges
@@ -69,11 +76,11 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ## Contributing
 [NPM](https://www.npmjs.com/package/inquirer/v/8.2.4?activeTab=readme#installation)  
 [Jest](https://jestjs.io/)  
+[Heroku](https://devcenter.heroku.com/start)  
 [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4)  
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web)  
 [Node.js](https://nodejs.org/docs/latest/api/)  
-[Stack Overflow](https://stackoverflow.com/?newreg=67d94556b887449fa2885dadf54a5439)  
-[HTML Cheatsheet](https://htmlcheatsheet.com/js/)  
+[Stack Overflow](https://stackoverflow.com/?newreg=67d94556b887449fa2885dadf54a5439)    
 [W3school](https://www.w3schools.com/)  
 [DEV](https://dev.to/envoy_/150-badges-for-github-pnk#contact)  
 [Shields](https://shields.io/)  
@@ -107,4 +114,4 @@ slhanson11@live.com
 ![JSON](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=red)  ![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
 ![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)  ![Google Chrome](https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white)
 ![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)  ![Lenovo](https://img.shields.io/badge/lenovo%20laptop-E2231A?style=for-the-badge&logo=lenovo&logoColor=white)  
-
+![Alt text](public/assets/img/h_logo.png)
