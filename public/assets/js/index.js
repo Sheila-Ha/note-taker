@@ -25,7 +25,7 @@ const hide = (elem) => {
   elem.style.display = 'none';
 };
 
-// activeNote is used to keep track of the note in the textarea
+// activeNote is used to keep track of the note in the text area
 let activeNote = {};
 
 const getNotes = () =>
@@ -52,11 +52,6 @@ const deleteNote = (id) =>
       'Content-Type': 'application/json'
     }
   });
-  // .then((res) => res.json())
-  // .then((data) => {
-  //   console.log('Successful POST request:', data);
-  //   return data;
-  // });
 
 const renderActiveNote = () => {
   hide(saveNoteBtn);

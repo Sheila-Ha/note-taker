@@ -2,7 +2,7 @@
 by Sheila Hanson ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description <!-- omit from toc -->
-  - This application is a Note Taker that can be used to write, save and delete notes. The Note Taker app uses Express.js back end and saves and retrives note data from the JSON file. The deployment is run through Heroku for this application.
+  - This application is a Note Taker app that can be used to write, save and delete notes. The Note Taker app uses Express.js back end and saves and retrives note data from the JSON file. The deployment is run through Heroku for this application.
 
 ## Table of Contents <!-- omit from toc -->
   
@@ -57,7 +57,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
       
 ## Usage 
   - [Note-Taker app deployed through Heroku](https://note-taker-demo-38df2f8b4c58.herokuapp.com/notes)  
-    - Title and list - click save (top right corner)
+    - Title and list filled in - click save (top right corner)
  ![Title & List](public/assets/img/Title_List.png)  
     - View after save 
     - Moves from making active notes to a saved notes to view later.
@@ -96,7 +96,7 @@ This project is licensed under MIT
     
 
 ## Questions
-![Ask me anything](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
+![Ask me anything](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)  
 If you have any questions, or additional feedback, please feel free to email me and I will respond as soon as possible.
     
 * Github -
