@@ -94,7 +94,7 @@ This project is licensed under MIT
 If you have any questions, or additional feedback, please feel free to email me and I will respond as soon as possible.
     
 * Github -
-[https://github.com/Sheila-Ha/note_taker](https://github.com/Sheila-Ha/note_taker)
+[https://github.com/Sheila-Ha/note-taker.git](https://github.com/Sheila-Ha/note_taker)
 
 * Email -
 slhanson11@live.com
