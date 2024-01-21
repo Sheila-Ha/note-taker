@@ -1,8 +1,12 @@
-// my json file acting as a database
 [
   {
     "title": "Groceries",
     "text": "bread\nbutter\nmilk\noats\ncat food",
     "id": "12774260-cd81-4499-be56-b285477179a8"
+  },
+  {
+    "title": "NewNote",
+    "text": "Hello",
+    "id": "c24568df-3775-45c6-8e6e-971bce226742"
   }
 ]

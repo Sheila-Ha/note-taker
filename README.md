@@ -15,7 +15,6 @@ by Sheila Hanson ![Github license](https://img.shields.io/badge/license-MIT-blue
 - [Challenges](#challenges)
 - [Contributing](#contributing)
 - [License](#license)
-- [Testing](#testing)
 - [Questions](#questions)
 - [Badges](#badges)
     
@@ -71,7 +70,8 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 2. Including a wireframe
 
 ## Challenges
--
+1. Trying to understand how to do testing on the server side
+2. Adding the delete option
 
 ## Contributing
 [NPM](https://www.npmjs.com/package/inquirer/v/8.2.4?activeTab=readme#installation)  
@@ -88,12 +88,6 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## License 
 This project is licensed under MIT
-
-
-## Testing
-
-
-    
 
 ## Questions
 ![Ask me anything](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)  
