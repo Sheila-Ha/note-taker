@@ -16,25 +16,26 @@ app.use(express.json());
 // Static middleware pointing to the public folder
 app.use(express.static("public"));
 
-app.get("/notes", (req, res) => {
-  res.sendFile(path.join(__dirname, "/public/notes.html"));
-});
+// move these to it's own file for homework 11
+// app.get("/notes", (req, res) => {
+//   res.sendFile(path.join(__dirname, "/public/notes.html"));
+// });
 
-app.get("/api/notes", (req, res) => {
-  //console.log('api/notes');
-  fs.readFile("./db/db.json", "utf8", (err, data) => {
-    if (err) throw err;
-    res.json(JSON.parse(data));
-  });
-});
-// Create Express.js routes for default "*"
-// Put this AFTER other gets. Has to be the last get because it is a fallback if other match is not found.
-app.get("*", (req, res) => {
-  //console.log(req);
-  //console.log(res);
-  //console.log('test - *');
-  res.status(200).sendFile(path.join(__dirname, "/public/index.html"));
-});
+// app.get("/api/notes", (req, res) => {
+//   //console.log('api/notes');
+//   fs.readFile("./db/db.json", "utf8", (err, data) => {
+//     if (err) throw err;
+//     res.json(JSON.parse(data));
+//   });
+// });
+// // Create Express.js routes for default "*"
+// // Put this AFTER other gets. Has to be the last get because it is a fallback if other match is not found.
+// app.get("*", (req, res) => {
+//   //console.log(req);
+//   //console.log(res);
+//   //console.log('test - *');
+//   res.status(200).sendFile(path.join(__dirname, "/public/index.html"));
+// });
 
 app.post("/api/notes", (req, res) => {
   const newNote = req.body;
